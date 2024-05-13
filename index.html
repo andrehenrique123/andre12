@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Vencedora</title>
+    <!-- Adicione aqui seus links para folhas de estilo CSS -->
+    <!-- Adicione aqui seus scripts JavaScript, se necessário -->
+</head>
+<body>
+    <!-- Barra de Navegação -->
+    <nav>
+        <ul>
+            <li><a href="file:///home/pedagogico/%C3%81rea%20de%20Trabalho/andre/index.html">Página Inicial</a></li>
+            <li><a href="#">Categorias</a></li>
+            <li><a href="file:///home/pedagogico/%C3%81rea%20de%20Trabalho/andre/carrinho.html" id="carrinhoLink">Meu Carrinho</a></li>
+            <li><a href="#">Minha Conta</a></li>
+            <li><a href="#">Suporte</a></li>
+        </ul>
+    </nav>
+
+    <!-- Banner com Ofertas -->
+    <section id="banner">
+        <h1>Bem-vindo a Casa Vencedora!</h1>
+        <p>Encontre as melhores ofertas em produtos frescos e de qualidade.</p>
+        <!-- Aqui você pode adicionar o carrossel de ofertas -->
+    </section>
+
+    <!-- Categorias de Produtos em Destaque -->
+    <section id="categorias">
+        <h2>Categorias em Destaque</h2>
+        <!-- Aqui você pode listar as categorias de produtos em destaque -->
+    </section>
+
+    <!-- Ofertas do Dia -->
+    <section id="ofertas">
+        <h2>Ofertas do Dia</h2>
+        <p>Açucar R$17,99</p>
+        <!-- Aqui você pode listar as ofertas do dia -->
+    </section>
+
+    <!-- Testemunhos de Clientes -->
+    <section id="testemunhos">
+        <h2>Testemunhos de Clientes</h2>
+        <!-- Aqui você pode listar os testemunhos de clientes satisfeitos -->
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Meu Mercado Online. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        document.getElementById("carrinhoLink").addEventListener("click", function() {
+            // Redirecionar para a página do carrinho
+            window.location.href = "carrinho.html";
+        });
+    </script>
+</body>
+</html>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Branco */
+    color: #000000; /* Preto */
+}
+
+/* Estilo da barra de navegação */
+nav {
+    background-color: #007bff; /* Azul */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #ffffff; /* Branco */
+    text-decoration: none;
+}
+
+/* Estilo do banner */
+#banner {
+    background-color: #ffffff; /* Branco */
+    color: #000000; /* Preto */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo das seções */
+section {
+    padding: 20px;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #007bff; /* Azul */
+    color: #ffffff; /* Branco */
+    padding: 10px;
+    text-align: center;
+}
+</style>
